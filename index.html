@@ -9,6 +9,39 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Book an appointment now!</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <form id="appointment-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Name...">
+            </div>
+            <div class="form-group">
+              <label for="description">Description:</label>
+              <textarea class="form-control" id="description" rows="3" placeholder="Reason for appointment..." form="appointment-form"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">Date:</label>
+              <input type="date" id="date" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="name">Start Time:</label>
+              <input type="time" class="form-control" id="start-time">
+            </div>
+            <div class="form-group">
+              <label for="name">End Time:</label>
+              <input type="time" class="form-control" id="end-time">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
